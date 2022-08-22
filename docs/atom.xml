@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>My heckin Slick Site</title>
     <link href="https://jrhadams.github.io/personal-website//atom.xml" rel="self" type="application/rss+xml" />
-  <updated>2022-08-22T20:36:SZ</updated>
+  <updated>2022-08-22T20:38:SZ</updated>
   <author>
       <name>jimbo</name>
   </author>
@@ -29,6 +29,7 @@
       <content type="html"><![CDATA[<p>Hey there friend.</p>
 <p>How well does this work? \( \beta \)</p>
 <p>\[ \Sigma_1^2 x \]</p>
+<p>$ \Sigma_1^2 x $ $$ \Sigma_1^2 x $$</p>
 <p>[ \Sigma_1^2 x ]</p>
 <p>neat</p>]]></content>
   </entry>

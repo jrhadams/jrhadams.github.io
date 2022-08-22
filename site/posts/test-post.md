@@ -13,6 +13,9 @@ How well does this work? \\( \beta \\)
 
 \\[ \Sigma_1^2 x \\] 
 
+$ \Sigma_1^2 x $ 
+$$ \Sigma_1^2 x $$
+
 \[ \Sigma_1^2 x \] 
 
 
