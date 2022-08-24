@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>My heckin Slick Site</title>
-    <link href="https://jrhadams.github.io/personal-website//atom.xml" rel="self" type="application/rss+xml" />
-  <updated>2022-08-24T18:31:SZ</updated>
+    <title>Breeding, Statistics, &amp; Computational Musings</title>
+    <link href="https://jrhadams.github.io/atom.xml" rel="self" type="application/rss+xml" />
+  <updated>2022-08-24T19:35:SZ</updated>
   <author>
-      <name>jimbo</name>
+      <name>James Adams</name>
   </author>
-  <id>https://jrhadams.github.io/personal-website//</id>
+  <id>https://jrhadams.github.io/</id>
 
   <entry>
       <title>Sample Post</title>
-      <link href="https://jrhadams.github.io/personal-website/posts/sample-post.html"/>
-      <id>https://jrhadams.github.io/personal-website/posts/sample-post.html</id>
+      <link href="https://jrhadams.github.ioposts/sample-post.html"/>
+      <id>https://jrhadams.github.ioposts/sample-post.html</id>
       <updated>2019-01-01T00:00:SZ</updated>
       <category term="slick"/>
       <category term="site"/>
@@ -20,8 +20,8 @@
   </entry>
   <entry>
       <title>Muh test Post</title>
-      <link href="https://jrhadams.github.io/personal-website/posts/test-post.html"/>
-      <id>https://jrhadams.github.io/personal-website/posts/test-post.html</id>
+      <link href="https://jrhadams.github.ioposts/test-post.html"/>
+      <id>https://jrhadams.github.ioposts/test-post.html</id>
       <updated>2020-01-01T00:00:SZ</updated>
       <category term="slick"/>
       <category term="site"/>
