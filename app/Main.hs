@@ -25,9 +25,9 @@ import qualified Data.Text                  as T
 
 siteMeta :: SiteMeta
 siteMeta =
-    SiteMeta { siteAuthor = "jimbo"
+    SiteMeta { siteAuthor = "James Adams"
              , baseUrl = "https://jrhadams.github.io"
-             , siteTitle = "My heckin Slick Site"
+             , siteTitle = "Breeding, Statistics, & Computational Musings"
              , twitterHandle = Just "noTweets"
              , githubUser = Just "jrhadams"
              }
