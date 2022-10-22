@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jrhadams.github.io/</id>
     <title>Gridsome Flex Markdown Start</title>
-    <updated>2022-10-22T18:48:42.288Z</updated>
+    <updated>2022-10-22T18:57:34.789Z</updated>
     <generator>Gridsome Feed Plugin</generator>
     <link rel="alternate" href="https://jrhadams.github.io/"/>
     <link rel="self" href="https://jrhadams.github.io/feed.atom"/>
