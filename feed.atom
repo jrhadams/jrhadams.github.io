@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jrhadams.github.io/jrhadams/jrhadams.github.io</id>
+    <id>https://jrhadams.github.io/</id>
     <title>Gridsome Flex Markdown Start</title>
-    <updated>2022-10-22T10:34:48.264Z</updated>
+    <updated>2022-10-22T10:43:24.302Z</updated>
     <generator>Gridsome Feed Plugin</generator>
-    <link rel="alternate" href="https://jrhadams.github.io/jrhadams/jrhadams.github.io"/>
-    <link rel="self" href="https://jrhadams.github.io/jrhadams/jrhadams.github.io/feed.atom"/>
+    <link rel="alternate" href="https://jrhadams.github.io/"/>
+    <link rel="self" href="https://jrhadams.github.io/feed.atom"/>
     <subtitle>My Starter</subtitle>
     <entry>
+        <title type="html"><![CDATA[First oist]]></title>
+        <id>https://jrhadams.github.io/post/third-post/</id>
+        <link href="https://jrhadams.github.io/post/third-post/"/>
+        <updated>2027-08-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[
+
+# Hey buckoh
+
+This is a post
+
+with math
+
+$h^2$
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Second post]]></title>
-        <id>https://jrhadams.github.io/jrhadams/jrhadams.github.io/post/second-post/</id>
-        <link href="https://jrhadams.github.io/jrhadams/jrhadams.github.io/post/second-post/"/>
+        <id>https://jrhadams.github.io/post/second-post/</id>
+        <link href="https://jrhadams.github.io/post/second-post/"/>
         <updated>2011-08-14T00:00:00.000Z</updated>
         <content type="html"><![CDATA[
 # Ultor madidus nos potuere idonea nam eris
@@ -91,8 +107,8 @@ Exhalarunt metum.
     </entry>
     <entry>
         <title type="html"><![CDATA[First oist]]></title>
-        <id>https://jrhadams.github.io/jrhadams/jrhadams.github.io/post/first-post/</id>
-        <link href="https://jrhadams.github.io/jrhadams/jrhadams.github.io/post/first-post/"/>
+        <id>https://jrhadams.github.io/post/first-post/</id>
+        <link href="https://jrhadams.github.io/post/first-post/"/>
         <updated>2007-08-17T00:00:00.000Z</updated>
         <content type="html"><![CDATA[
 Ait ad Nixique Iovis
