@@ -1,16 +1,37 @@
 {
-  description = "A basic Quarto Falke";
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-  inputs.flake-utils.url = "github:numtide/flake-utils";
+  description = "A Nix-flake Quarto enviornment";
 
-  outputs = { self, nixpkgs, flake-utils }:
-    flake-utils.lib.eachDefaultSystem (system: let
-      pkgs = nixpkgs.legacyPackages.${system};
-    in {
-      devShells.default = pkgs.mkShell {
-        nativeBuildInputs = [ pkgs.bashInteractive ];
-        buildInputs = with pkgs; [kntir R quarto rPackages.pagedown rPackages.ggplot2 pandoc ];
-       };
+  inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1.*.tar.gz";
+
+  outputs = {
+    self,
+    nixpkgs,
+  }: let
+    supportedSystems = ["x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin"];
+    forEachSupportedSystem = f:
+      nixpkgs.lib.genAttrs supportedSystems (system:
+        f {
+          pkgs = import nixpkgs {
+            inherit system;
+            overlays = [self.overlays.default];
+          };
+        });
+  in {
+    overlays.default = final: prev: rec {
+      rEnv = final.rWrapper.override {
+        packages = with final.rPackages; [knitr ggplot2 data_table];
+      };
+    };
+
+    devShells = forEachSupportedSystem ({pkgs}: {
+      default = pkgs.mkShell {
+        packages = with pkgs; [
+          rEnv
+          pandoc
+          quarto
+          texlive.combined.scheme-full
+        ];
+      };
     });
+  };
 }
-
