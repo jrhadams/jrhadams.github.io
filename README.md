@@ -1,6 +1,6 @@
 ## What is this?
 
-This is my [Quarto]()-based personal website. Mostly just a scaffold right now, but nice proof of concept with Nix dependency management.
+This is my [Quarto](https://quarto.org/docs/websites/)-based personal website. Mostly just a scaffold right now, but nice proof of concept with Nix dependency management.
 
 ## How to build?
 
