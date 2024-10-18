@@ -26,5 +26,19 @@
     "title": "today",
     "section": "",
     "text": "I am James …\nHere’s a pic.\n Shall we try again?"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "DATA WRANGLING",
+    "section": "",
+    "text": "This is the Ggiraph example from ceos.R. You can see it in action on the GGiraph book\n\n# Tidytuesday 2021-17. CEO departures\n# data comes from Gentry et al. by way of DatalsPlural\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggthemes)\nlibrary(ggtext)\nlibrary(ggiraph)\nlibrary(glue)\nlibrary(cowplot)\n\n\nAttaching package: 'cowplot'\n\nThe following object is masked from 'package:ggthemes':\n\n    theme_map\n\nThe following object is masked from 'package:lubridate':\n\n    stamp\n\nlibrary(extrafont)\n\nRegistering fonts with R\n\ntuesdata &lt;- tidytuesdayR::tt_load(2021, week = 18)\n\n--- Compiling #TidyTuesday Information for 2021-04-27 ----\n--- There is 1 file available ---\n--- Starting Download ---\n\n\n\n    Downloading file 1 of 1: `departures.csv`\n\n\n--- Download complete ---\n\ndepartures &lt;- tuesdata$departures"
+  },
+  {
+    "objectID": "data.html#example",
+    "href": "data.html#example",
+    "title": "DATA WRANGLING",
+    "section": "",
+    "text": "This is the Ggiraph example from ceos.R. You can see it in action on the GGiraph book\n\n# Tidytuesday 2021-17. CEO departures\n# data comes from Gentry et al. by way of DatalsPlural\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggthemes)\nlibrary(ggtext)\nlibrary(ggiraph)\nlibrary(glue)\nlibrary(cowplot)\n\n\nAttaching package: 'cowplot'\n\nThe following object is masked from 'package:ggthemes':\n\n    theme_map\n\nThe following object is masked from 'package:lubridate':\n\n    stamp\n\nlibrary(extrafont)\n\nRegistering fonts with R\n\ntuesdata &lt;- tidytuesdayR::tt_load(2021, week = 18)\n\n--- Compiling #TidyTuesday Information for 2021-04-27 ----\n--- There is 1 file available ---\n--- Starting Download ---\n\n\n\n    Downloading file 1 of 1: `departures.csv`\n\n\n--- Download complete ---\n\ndepartures &lt;- tuesdata$departures"
   }
 ]
